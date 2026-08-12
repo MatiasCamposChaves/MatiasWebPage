@@ -382,7 +382,7 @@ export default function Home({ profile, skills, soft_skills, languages, credenti
         <div className="rounded-lg border border-[#d7e0dc] bg-white p-5 shadow-sm">
           <div className="grid gap-6 md:grid-cols-[0.88fr_1.12fr] md:items-center">
             <a href={profile.cv_url} target="_blank" rel="noreferrer" className="group block overflow-hidden rounded-lg border border-[#d7e0dc] bg-[#eef4f1] p-4 transition hover:border-[#1f6f61]">
-              <img src="/matias-campos-cv-preview.png" alt="Matias Campos CV preview" className="mx-auto aspect-[8.5/11] w-full max-w-[260px] rounded-md border border-[#c6d2cc] bg-white object-cover object-top shadow-md transition group-hover:scale-[1.015]" />
+              <img src={profile.cv_preview_url} alt="Matias Campos CV preview" className="mx-auto aspect-[8.5/11] w-full max-w-[260px] rounded-md border border-[#c6d2cc] bg-white object-cover object-top shadow-md transition group-hover:scale-[1.015]" />
             </a>
             <div>
               <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[#1f6f61]">{t.cvPreviewTitle}</p>

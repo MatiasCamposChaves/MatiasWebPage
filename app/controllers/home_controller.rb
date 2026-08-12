@@ -8,7 +8,8 @@ class HomeController < ApplicationController
         location: "Desamparados, San Jose, Costa Rica",
         email: "matiastrabajo974@gmail.com",
         phone: "+506 8703 5523",
-        cv_url: "/matias-campos-cv.pdf",
+        cv_url: "matias-campos-cv.pdf",
+        cv_preview_url: "matias-campos-cv-preview.png",
         linkedin: "https://www.linkedin.com/in/matias-campos-a5b160274/",
         github: "https://github.com/MatiasCamposC"
       },
