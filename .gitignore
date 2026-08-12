@@ -1,0 +1,25 @@
+# Rails
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+/storage/*
+!/storage/.keep
+/tmp/storage/*
+!/tmp/storage/.keep
+
+/public/assets
+/public/vite
+
+# Local secrets
+/config/master.key
+/config/credentials/*.key
+
+# Node
+/node_modules
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
