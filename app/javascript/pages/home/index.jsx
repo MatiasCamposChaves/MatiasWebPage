@@ -168,6 +168,8 @@ export default function Home({ profile, skills, soft_skills, languages, credenti
   const [language, setLanguage] = useState("es")
   const [showModal, setShowModal] = useState(true)
   const t = content[language]
+  const cvUrl = publicFileUrl(profile.cv_url)
+  const cvPreviewUrl = publicFileUrl(profile.cv_preview_url)
 
   useEffect(() => {
     const saved = window.localStorage.getItem("portfolio-language")
@@ -237,7 +239,7 @@ export default function Home({ profile, skills, soft_skills, languages, credenti
             <h1 className="max-w-4xl text-5xl font-semibold leading-tight md:text-7xl">{t.headline}</h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-[#53625d]">{t.summary}</p>
             <div className="mt-9 flex flex-wrap gap-3">
-              <a href={profile.cv_url} target="_blank" rel="noreferrer" className="inline-flex min-w-24 items-center justify-center rounded-md bg-[#1f6f61] px-5 py-3 text-sm font-semibold text-[#ffffff] shadow-sm transition hover:bg-[#18584d]">{t.primary}</a>
+              <a href={cvUrl} target="_blank" rel="noreferrer" className="inline-flex min-w-24 items-center justify-center rounded-md bg-[#1f6f61] px-5 py-3 text-sm font-semibold text-[#ffffff] shadow-sm transition hover:bg-[#18584d]">{t.primary}</a>
               <a href={`mailto:${profile.email}`} className="inline-flex min-w-28 items-center justify-center rounded-md border border-[#8fa49b] bg-white px-5 py-3 text-sm font-semibold text-[#14201d] shadow-sm transition hover:border-[#1f6f61] hover:text-[#1f6f61]">{t.secondary}</a>
             </div>
           </div>
@@ -375,14 +377,14 @@ export default function Home({ profile, skills, soft_skills, languages, credenti
           <h2 className="mt-3 text-3xl font-semibold leading-tight md:text-4xl">{profile.role}</h2>
           <p className="mt-4 text-lg leading-8 text-[#53625d]">{t.cvText}</p>
           <div className="mt-7 flex flex-wrap gap-3">
-            <a href={profile.cv_url} target="_blank" rel="noreferrer" className="inline-flex min-w-28 items-center justify-center rounded-md bg-[#1f6f61] px-5 py-3 text-sm font-semibold text-[#ffffff] shadow-sm transition hover:bg-[#18584d]">{t.openCv}</a>
-            <a href={profile.cv_url} download className="inline-flex min-w-32 items-center justify-center rounded-md border border-[#8fa49b] bg-white px-5 py-3 text-sm font-semibold text-[#14201d] shadow-sm transition hover:border-[#1f6f61] hover:text-[#1f6f61]">{t.downloadCv}</a>
+            <a href={cvUrl} target="_blank" rel="noreferrer" className="inline-flex min-w-28 items-center justify-center rounded-md bg-[#1f6f61] px-5 py-3 text-sm font-semibold text-[#ffffff] shadow-sm transition hover:bg-[#18584d]">{t.openCv}</a>
+            <a href={cvUrl} download="Curriculum Matias Campos.pdf" className="inline-flex min-w-32 items-center justify-center rounded-md border border-[#8fa49b] bg-white px-5 py-3 text-sm font-semibold text-[#14201d] shadow-sm transition hover:border-[#1f6f61] hover:text-[#1f6f61]">{t.downloadCv}</a>
           </div>
         </div>
         <div className="rounded-lg border border-[#d7e0dc] bg-white p-5 shadow-sm">
           <div className="grid gap-6 md:grid-cols-[0.88fr_1.12fr] md:items-center">
-            <a href={profile.cv_url} target="_blank" rel="noreferrer" className="group block overflow-hidden rounded-lg border border-[#d7e0dc] bg-[#eef4f1] p-4 transition hover:border-[#1f6f61]">
-              <img src={profile.cv_preview_url} alt="Matias Campos CV preview" className="mx-auto aspect-[8.5/11] w-full max-w-[260px] rounded-md border border-[#c6d2cc] bg-white object-cover object-top shadow-md transition group-hover:scale-[1.015]" />
+            <a href={cvUrl} target="_blank" rel="noreferrer" className="group block overflow-hidden rounded-lg border border-[#d7e0dc] bg-[#eef4f1] p-4 transition hover:border-[#1f6f61]">
+              <img src={cvPreviewUrl} alt="Matias Campos CV preview" className="mx-auto aspect-[8.5/11] w-full max-w-[260px] rounded-md border border-[#c6d2cc] bg-white object-cover object-top shadow-md transition group-hover:scale-[1.015]" />
             </a>
             <div>
               <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[#1f6f61]">{t.cvPreviewTitle}</p>
@@ -419,6 +421,19 @@ export default function Home({ profile, skills, soft_skills, languages, credenti
       </section>
     </main>
   )
+}
+
+function publicFileUrl(path) {
+  if (/^(https?:|mailto:|tel:|#)/.test(path)) return path
+
+  const cleanPath = path.replace(/^\/+/, "")
+
+  if (typeof window !== "undefined" && window.location.hostname.endsWith("github.io")) {
+    const repositoryName = window.location.pathname.split("/").filter(Boolean)[0]
+    return repositoryName ? `/${repositoryName}/${cleanPath}` : `/${cleanPath}`
+  }
+
+  return `/${cleanPath}`
 }
 
 function InfoBlock({ label, value, href }) {
