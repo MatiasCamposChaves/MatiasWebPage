@@ -70,8 +70,10 @@ const html = `<!DOCTYPE html>
     <title>Matias Campos</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="description" content="Professional technology profile and portfolio for Matias Campos Chaves.">
-    <link rel="icon" href="icon.png" type="image/png">
-    <link rel="icon" href="icon.svg" type="image/svg+xml">
+    <link rel="icon" href="icon.svg?v=mc2" type="image/svg+xml">
+    <link rel="icon" href="icon.png?v=mc2" type="image/png">
+    <link rel="shortcut icon" href="icon.png?v=mc2" type="image/png">
+    <link rel="apple-touch-icon" href="icon.png?v=mc2">
     <link rel="stylesheet" href="${cssFile}">
     <script src="${jsFile}" type="module"></script>
   </head>
