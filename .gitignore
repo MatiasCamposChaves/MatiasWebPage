@@ -11,6 +11,7 @@
 
 /public/assets
 /public/vite
+/public/vite-dev
 
 # Local secrets
 /config/master.key

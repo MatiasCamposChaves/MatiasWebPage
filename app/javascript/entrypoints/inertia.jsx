@@ -3,6 +3,7 @@ import { createInertiaApp } from "@inertiajs/react"
 import { createRoot } from "react-dom/client"
 
 createInertiaApp({
+  page: JSON.parse(document.getElementById("app").dataset.page),
   resolve: (name) => {
     const pages = import.meta.glob("../pages/**/*.jsx", { eager: true })
     return pages[`../pages/${name}.jsx`]
