@@ -18,18 +18,18 @@ const content = {
     ],
     eyebrow: "Full Stack Software Engineer",
     headline: "Desarrollo software con enfoque practico, criterio tecnico y hambre de crecer.",
-    summary: "Soy ingeniero de software y desarrollador Full Stack en Grupo Montecristo, trabajando en soluciones para DrMax con backend, frontend y bases de datos usando C#, CSS y MySQL. También tengo conocimiento en desarrollo con IA y experiencia académica con React, Java, JavaScript, HTML/CSS, C++, C# y bases de datos.",
+    summary: "Soy ingeniero de software y desarrollador Full Stack en Grupo Montecristo, trabajando en soluciones para DrMax con backend, frontend y bases de datos usando C#, CSS y MySQL. Actualmente aporto en el bloque de POS / punto de venta e integraciones con SAP Business One. También tengo conocimiento en desarrollo con IA y experiencia académica con React, Java, JavaScript, HTML/CSS, C++, C# y bases de datos.",
     primary: "Ver CV",
     secondary: "Contactarme",
     proofTitle: "Razones para contratarme",
     proof: [
-      "Experiencia laboral actual desarrollando software para DrMax.",
+      "Experiencia laboral actual desarrollando software para DrMax, con trabajo en POS e integraciones con SAP B1.",
       "Formación universitaria en Ingeniería del Software.",
       "Conocimiento en desarrollo con IA para acelerar análisis, prototipado y construcción de soluciones.",
       "Inglés avanzado B2 y comunicación clara para equipos técnicos.",
     ],
     aboutTitle: "Sobre mí",
-    about: "Me gusta construir soluciones que se entiendan, funcionen bien y puedan mantenerse. Combino base técnica, curiosidad, conocimiento en herramientas de IA y capacidad de aprender rápido para aportar en frontend, backend y bases de datos.",
+    about: "Me gusta construir soluciones que se entiendan, funcionen bien y puedan mantenerse. Combino base técnica, curiosidad, conocimiento en herramientas de IA y capacidad de aprender rápido para aportar en frontend, backend, bases de datos e integraciones entre sistemas.",
     personalTitle: "Datos personales",
     personalText: "Información directa para empresas, reclutadores o equipos que quieran conocer mi perfil.",
     email: "Correo",
@@ -45,7 +45,7 @@ const content = {
         role: "Desarrollador Full Stack",
         company: "Grupo Montecristo / DrMax",
         period: "Julio 2026 - Actualidad",
-        body: "Participo en el desarrollo y mantenimiento de software para el sector de DrMax como Full Stack, trabajando en backend, frontend y bases de datos. Utilizo C#, CSS y MySQL para apoyar soluciones internas, ajustar interfaces, trabajar con información de la base de datos y contribuir a mejoras que hagan los procesos más claros, estables y fáciles de usar para el equipo.",
+        body: "Participo en el desarrollo y mantenimiento de software para el sector de DrMax como Full Stack, trabajando en backend, frontend y bases de datos. Mi enfoque principal está relacionado con el POS / punto de venta, donde apoyo mejoras e integraciones con SAP Business One. Utilizo C#, CSS y MySQL para ajustar interfaces, trabajar con información de la base de datos y contribuir a procesos más claros, estables y fáciles de usar para el equipo.",
       },
       {
         role: "FullStack Dev at University",
@@ -63,7 +63,7 @@ const content = {
     cvTitle: "CV profesional",
     cvText: "Consulta o descarga mi CV completo con experiencia, habilidades, educación, idiomas y enlaces profesionales.",
     cvPreviewTitle: "Resumen del CV",
-    cvPreviewItems: ["Full Stack Software Engineer", "Experiencia actual en DrMax", "React, C#, JavaScript, MySQL e IA"],
+    cvPreviewItems: ["Full Stack Software Engineer", "Experiencia actual en DrMax", "POS, SAP B1, C#, MySQL e IA"],
     openCv: "Abrir CV",
     downloadCv: "Descargar PDF",
     contactTitle: "Links y contacto",
@@ -87,18 +87,18 @@ const content = {
     ],
     eyebrow: "Full Stack Software Engineer",
     headline: "I develop software with practical focus, technical judgment, and hunger to grow.",
-    summary: "I am a software engineer and Full Stack developer at Grupo Montecristo, working on solutions for DrMax across backend, frontend, and databases using C#, CSS, and MySQL. I also have knowledge in AI-assisted development and academic experience with React, Java, JavaScript, HTML/CSS, C++, C#, and databases.",
+    summary: "I am a software engineer and Full Stack developer at Grupo Montecristo, working on solutions for DrMax across backend, frontend, and databases using C#, CSS, and MySQL. I currently contribute to the POS / Point of Sale area and integrations with SAP Business One. I also have knowledge in AI-assisted development and academic experience with React, Java, JavaScript, HTML/CSS, C++, C#, and databases.",
     primary: "View resume",
     secondary: "Contact me",
     proofTitle: "Reasons to hire me",
     proof: [
-      "Current work experience developing software for DrMax.",
+      "Current work experience developing software for DrMax, including POS work and SAP B1 integrations.",
       "University background in Software Engineering.",
       "Knowledge in AI-assisted development to accelerate analysis, prototyping, and solution building.",
       "Advanced B2 English and clear communication for technical teams.",
     ],
     aboutTitle: "About me",
-    about: "I enjoy building solutions that are clear, useful, and maintainable. I combine technical foundations, curiosity, knowledge in AI tools, and fast learning to contribute across frontend, backend, and databases.",
+    about: "I enjoy building solutions that are clear, useful, and maintainable. I combine technical foundations, curiosity, knowledge in AI tools, and fast learning to contribute across frontend, backend, databases, and system integrations.",
     personalTitle: "Personal information",
     personalText: "Direct information for companies, recruiters, or teams who want to understand my profile.",
     email: "Email",
@@ -114,7 +114,7 @@ const content = {
         role: "Full Stack Developer",
         company: "Grupo Montecristo / DrMax",
         period: "July 2026 - Current",
-        body: "I participate in the development and maintenance of software for the DrMax sector as a Full Stack developer, working across backend, frontend, and databases. I use C#, CSS, and MySQL to support internal solutions, adjust interfaces, work with database information, and contribute improvements that make processes clearer, more stable, and easier for the team to use.",
+        body: "I participate in the development and maintenance of software for the DrMax sector as a Full Stack developer, working across backend, frontend, and databases. My main focus is related to the POS / Point of Sale area, where I support improvements and integrations with SAP Business One. I use C#, CSS, and MySQL to adjust interfaces, work with database information, and contribute improvements that make processes clearer, more stable, and easier for the team to use.",
       },
       {
         role: "FullStack Dev at University",
@@ -132,7 +132,7 @@ const content = {
     cvTitle: "Professional resume",
     cvText: "View or download my complete resume with experience, skills, education, languages, and professional links.",
     cvPreviewTitle: "Resume snapshot",
-    cvPreviewItems: ["Full Stack Software Engineer", "Current experience at DrMax", "React, C#, JavaScript, MySQL, and AI"],
+    cvPreviewItems: ["Full Stack Software Engineer", "Current experience at DrMax", "POS, SAP B1, C#, MySQL, and AI"],
     openCv: "Open resume",
     downloadCv: "Download PDF",
     contactTitle: "Links and contact",
@@ -234,7 +234,7 @@ export default function Home({ profile, skills, soft_skills, languages, credenti
       <section id="top" className="relative overflow-hidden border-b border-[#d7e0dc]">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_15%_20%,rgba(31,111,97,0.18),transparent_34%),linear-gradient(135deg,#f6f8f7_0%,#eef4f1_46%,#f9fbfa_100%)]" />
         <div className="relative mx-auto grid max-w-7xl gap-10 px-5 py-16 md:px-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-center lg:py-24">
-          <div>
+          <div className="order-2 lg:order-1">
             <p className="mb-5 text-sm font-semibold uppercase tracking-[0.18em] text-[#1f6f61]">{t.eyebrow}</p>
             <h1 className="max-w-4xl text-5xl font-semibold leading-tight md:text-7xl">{t.headline}</h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-[#53625d]">{t.summary}</p>
@@ -243,7 +243,7 @@ export default function Home({ profile, skills, soft_skills, languages, credenti
               <a href={`mailto:${profile.email}`} className="inline-flex min-w-28 items-center justify-center rounded-md border border-[#8fa49b] bg-white px-5 py-3 text-sm font-semibold text-[#14201d] shadow-sm transition hover:border-[#1f6f61] hover:text-[#1f6f61]">{t.secondary}</a>
             </div>
           </div>
-          <aside className="rounded-lg border border-[#d7e0dc] bg-white/82 p-6 shadow-sm backdrop-blur md:p-8">
+          <aside className="order-1 rounded-lg border border-[#d7e0dc] bg-white/82 p-6 shadow-sm backdrop-blur md:p-8 lg:order-2">
             <div className="flex items-center gap-5">
               <div className="grid h-20 w-20 shrink-0 place-items-center rounded-lg bg-[#14201d] text-2xl font-bold text-white">MC</div>
               <div>

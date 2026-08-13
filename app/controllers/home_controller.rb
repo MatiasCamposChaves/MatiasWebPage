@@ -22,6 +22,8 @@ class HomeController < ApplicationController
         "CSS",
         "MySQL",
         "SQL Server",
+        "SAP Business One",
+        "POS / Point of Sale",
         "C++",
         "C#",
         "AI-assisted development"
