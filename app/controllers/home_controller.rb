@@ -14,18 +14,13 @@ class HomeController < ApplicationController
         github: "https://github.com/MatiasCamposChaves"
       },
       skills: [
-        "React",
-        "Java",
-        "JavaScript",
-        "Python",
-        "HTML",
-        "CSS",
         "MySQL",
         "SQL Server",
-        "SAP Business One",
-        "POS / Point of Sale",
-        "C++",
+        "SAP B1",
         "C#",
+        "React",
+        "Java",
+        "HTML And CSS",
         "AI-assisted development"
       ],
       soft_skills: [
