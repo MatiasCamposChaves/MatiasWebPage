@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react"
 
 const content = {
   es: {
-    modalTitle: "Bienvenido al perfil tecnológico de Matias Campos",
+    modalTitle: "Bienvenido al perfil tecnológico de Matías Campos",
     modalText: "Elige el idioma para entrar a una presentación profesional creada para reclutadores, empresas y equipos de tecnología.",
     spanish: "Español",
     english: "Inglés",
@@ -17,13 +17,13 @@ const content = {
       ["contacto", "Contacto"],
     ],
     eyebrow: "Full Stack Software Engineer",
-    headline: "Desarrollo software con enfoque practico, criterio tecnico y hambre de crecer.",
-    summary: "Soy ingeniero de software y desarrollador Full Stack en Grupo Montecristo, trabajando en soluciones para DrMax con backend, frontend y bases de datos usando C#, CSS y MySQL. Actualmente aporto en el bloque de POS / punto de venta e integraciones con SAP Business One. También tengo conocimiento en desarrollo con IA y experiencia académica con React, Java, JavaScript, HTML/CSS, C++, C# y bases de datos.",
+    headline: "Desarrollo software con enfoque práctico, criterio técnico y hambre de crecer.",
+    summary: "Soy ingeniero de software y desarrollador Full Stack con experiencia freelance en Grupo Montecristo, donde trabajé en soluciones para DrMax con backend, frontend y bases de datos usando C#, CSS y MySQL. Aporté en el bloque de POS / punto de venta e integraciones con SAP Business One. También tengo conocimiento en desarrollo con IA y experiencia académica con React, JavaScript, Ruby on Rails, Java, HTML/CSS, C# y bases de datos.",
     primary: "Ver CV",
     secondary: "Contactarme",
     proofTitle: "Razones para contratarme",
     proof: [
-      "Experiencia laboral actual desarrollando software para DrMax, con trabajo en POS e integraciones con SAP B1.",
+      "Experiencia freelance desarrollando software para DrMax, con trabajo en POS e integraciones con SAP B1.",
       "Formación universitaria en Ingeniería del Software.",
       "Conocimiento en desarrollo con IA para acelerar análisis, prototipado y construcción de soluciones.",
       "Inglés avanzado B2 y comunicación clara para equipos técnicos.",
@@ -33,9 +33,9 @@ const content = {
     personalTitle: "Datos personales",
     personalText: "Información directa para empresas, reclutadores o equipos que quieran conocer mi perfil.",
     email: "Correo",
-    phone: "Telefono",
+    phone: "Teléfono",
     location: "Ubicación",
-    stackTitle: "Stack tecnico",
+    stackTitle: "Stack técnico",
     strengthsTitle: "Fortalezas",
     languagesTitle: "Idiomas",
     experienceTitle: "Experiencia",
@@ -44,8 +44,8 @@ const content = {
       {
         role: "Desarrollador Full Stack",
         company: "Grupo Montecristo / DrMax",
-        period: "Julio 2026 - Actualidad",
-        body: "Participo en el desarrollo y mantenimiento de software para el sector de DrMax como Full Stack, trabajando en backend, frontend y bases de datos. Mi enfoque principal está relacionado con el POS / punto de venta, donde apoyo mejoras e integraciones con SAP Business One. Utilizo C#, CSS y MySQL para ajustar interfaces, trabajar con información de la base de datos y contribuir a procesos más claros, estables y fáciles de usar para el equipo.",
+        period: "Freelance / Julio 2026 - Octubre 2026",
+        body: "Participé como desarrollador Full Stack freelance en el desarrollo y mantenimiento de software para el sector de DrMax, trabajando en backend, frontend y bases de datos. Mi enfoque principal estuvo relacionado con el POS / punto de venta, donde apoyé mejoras e integraciones con SAP Business One. Utilicé C#, CSS y MySQL para ajustar interfaces, trabajar con información de la base de datos y contribuir a procesos más claros, estables y fáciles de usar para el equipo.",
       },
       {
         role: "FullStack Dev at University",
@@ -63,7 +63,7 @@ const content = {
     cvTitle: "CV profesional",
     cvText: "Consulta o descarga mi CV completo con experiencia, habilidades, educación, idiomas y enlaces profesionales.",
     cvPreviewTitle: "Resumen del CV",
-    cvPreviewItems: ["Full Stack Software Engineer", "Experiencia actual en DrMax", "POS, SAP B1, C#, MySQL e IA"],
+    cvPreviewItems: ["CV en inglés optimizado para ATS", "Freelance Full Stack en DrMax: POS y SAP B1", "React, JavaScript, Ruby on Rails, APIs, Docker e IA"],
     openCv: "Abrir CV",
     downloadCv: "Descargar PDF",
     contactTitle: "Links y contacto",
@@ -87,12 +87,12 @@ const content = {
     ],
     eyebrow: "Full Stack Software Engineer",
     headline: "I develop software with practical focus, technical judgment, and hunger to grow.",
-    summary: "I am a software engineer and Full Stack developer at Grupo Montecristo, working on solutions for DrMax across backend, frontend, and databases using C#, CSS, and MySQL. I currently contribute to the POS / Point of Sale area and integrations with SAP Business One. I also have knowledge in AI-assisted development and academic experience with React, Java, JavaScript, HTML/CSS, C++, C#, and databases.",
+    summary: "I am a software engineer and Full Stack developer with freelance experience at Grupo Montecristo, where I worked on solutions for DrMax across backend, frontend, and databases using C#, CSS, and MySQL. I contributed to the POS / Point of Sale area and integrations with SAP Business One. I also have knowledge in AI-assisted development and academic experience with React, JavaScript, Ruby on Rails, Java, HTML/CSS, C#, and databases.",
     primary: "View resume",
     secondary: "Contact me",
     proofTitle: "Reasons to hire me",
     proof: [
-      "Current work experience developing software for DrMax, including POS work and SAP B1 integrations.",
+      "Freelance work experience developing software for DrMax, including POS work and SAP B1 integrations.",
       "University background in Software Engineering.",
       "Knowledge in AI-assisted development to accelerate analysis, prototyping, and solution building.",
       "Advanced B2 English and clear communication for technical teams.",
@@ -113,8 +113,8 @@ const content = {
       {
         role: "Full Stack Developer",
         company: "Grupo Montecristo / DrMax",
-        period: "July 2026 - Current",
-        body: "I participate in the development and maintenance of software for the DrMax sector as a Full Stack developer, working across backend, frontend, and databases. My main focus is related to the POS / Point of Sale area, where I support improvements and integrations with SAP Business One. I use C#, CSS, and MySQL to adjust interfaces, work with database information, and contribute improvements that make processes clearer, more stable, and easier for the team to use.",
+        period: "Freelance / July 2026 - October 2026",
+        body: "I participated as a freelance Full Stack developer in the development and maintenance of software for the DrMax sector, working across backend, frontend, and databases. My main focus was related to the POS / Point of Sale area, where I supported improvements and integrations with SAP Business One. I used C#, CSS, and MySQL to adjust interfaces, work with database information, and contribute improvements that made processes clearer, more stable, and easier for the team to use.",
       },
       {
         role: "FullStack Dev at University",
@@ -132,7 +132,7 @@ const content = {
     cvTitle: "Professional resume",
     cvText: "View or download my complete resume with experience, skills, education, languages, and professional links.",
     cvPreviewTitle: "Resume snapshot",
-    cvPreviewItems: ["Full Stack Software Engineer", "Current experience at DrMax", "POS, SAP B1, C#, MySQL, and AI"],
+    cvPreviewItems: ["English ATS-friendly resume", "Freelance Full Stack at DrMax: POS and SAP B1", "React, JavaScript, Ruby on Rails, APIs, Docker, and AI"],
     openCv: "Open resume",
     downloadCv: "Download PDF",
     contactTitle: "Links and contact",
@@ -153,6 +153,13 @@ const educationLabels = {
   "Baccalaureate in Software Engineering": { es: "Bachillerato en Ingeniería del Software", en: "Baccalaureate in Software Engineering" },
   "Information and Communications Technology Operator": { es: "Operador de Tecnologías de Información y Comunicación", en: "Information and Communications Technology Operator" },
   "Scrum Fundamentals": { es: "Scrum Fundamentals", en: "Scrum Fundamentals" },
+  "Web Application Development with React and Ruby on Rails": { es: "Desarrollo de aplicaciones Web con React y Ruby on Rails", en: "Web Application Development with React and Ruby on Rails" },
+}
+
+const credentialKindLabels = {
+  Degree: { es: "Título", en: "Degree" },
+  "Academic honor": { es: "Honor académico", en: "Academic honor" },
+  "Course certification": { es: "Certificación de curso", en: "Course certification" },
 }
 
 const languageLabels = {
@@ -168,8 +175,8 @@ export default function Home({ profile, skills, soft_skills, languages, credenti
   const [language, setLanguage] = useState("es")
   const [showModal, setShowModal] = useState(true)
   const t = content[language]
-  const cvUrl = publicFileUrl(profile.cv_url)
-  const cvPreviewUrl = publicFileUrl(profile.cv_preview_url)
+  const cvUrl = versionedPublicFileUrl(profile.cv_url, profile.cv_asset_version)
+  const cvPreviewUrl = versionedPublicFileUrl(profile.cv_preview_url, profile.cv_asset_version)
 
   useEffect(() => {
     const saved = window.localStorage.getItem("portfolio-language")
@@ -350,7 +357,7 @@ export default function Home({ profile, skills, soft_skills, languages, credenti
               <article key={credential.url} className="rounded-lg border border-[#d7e0dc] bg-[#f8faf9] p-6">
                 <div className="flex flex-col gap-5 sm:flex-row sm:items-start sm:justify-between">
                   <div>
-                    <p className="text-sm font-semibold uppercase tracking-[0.14em] text-[#1f6f61]">{credential.kind}</p>
+                    <p className="text-sm font-semibold uppercase tracking-[0.14em] text-[#1f6f61]">{credentialKindLabels[credential.kind]?.[language] || credential.kind}</p>
                     <h3 className="mt-3 text-2xl font-semibold">{credential.title}</h3>
                   </div>
                   <a href={credential.url} target="_blank" rel="noreferrer" className="inline-flex shrink-0 items-center justify-center rounded-md bg-[#1f6f61] px-4 py-2 text-sm font-semibold text-[#ffffff] shadow-sm transition hover:bg-[#18584d]">{t.verify}</a>
@@ -384,7 +391,7 @@ export default function Home({ profile, skills, soft_skills, languages, credenti
         <div className="rounded-lg border border-[#d7e0dc] bg-white p-5 shadow-sm">
           <div className="grid gap-6 md:grid-cols-[0.88fr_1.12fr] md:items-center">
             <a href={cvUrl} target="_blank" rel="noreferrer" className="group block overflow-hidden rounded-lg border border-[#d7e0dc] bg-[#eef4f1] p-4 transition hover:border-[#1f6f61]">
-              <img src={cvPreviewUrl} alt="Matias Campos CV preview" className="mx-auto aspect-[8.5/11] w-full max-w-[260px] rounded-md border border-[#c6d2cc] bg-white object-cover object-top shadow-md transition group-hover:scale-[1.015]" />
+              <img src={cvPreviewUrl} alt="Matías Campos CV preview" className="mx-auto aspect-[8.5/11] w-full max-w-[260px] rounded-md border border-[#c6d2cc] bg-white object-cover object-top shadow-md transition group-hover:scale-[1.015]" />
             </a>
             <div>
               <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[#1f6f61]">{t.cvPreviewTitle}</p>
@@ -434,6 +441,14 @@ function publicFileUrl(path) {
   }
 
   return `/${cleanPath}`
+}
+
+function versionedPublicFileUrl(path, version) {
+  const url = publicFileUrl(path)
+  if (!version) return url
+
+  const separator = url.includes("?") ? "&" : "?"
+  return `${url}${separator}v=${encodeURIComponent(version)}`
 }
 
 function InfoBlock({ label, value, href }) {

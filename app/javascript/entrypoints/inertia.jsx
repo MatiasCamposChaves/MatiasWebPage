@@ -11,5 +11,5 @@ createInertiaApp({
   setup({ el, App, props }) {
     createRoot(el).render(<App {...props} />)
   },
-  title: (title) => title ? `${title} | Matias Campos` : "Matias Campos",
+  title: (title) => title ? `${title} | Matías Campos` : "Matías Campos",
 })

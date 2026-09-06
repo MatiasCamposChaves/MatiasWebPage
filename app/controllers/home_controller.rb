@@ -2,25 +2,34 @@ class HomeController < ApplicationController
   def index
     render inertia: "home/index", props: {
       profile: {
-        name: "Matias Campos Chaves",
-        short_name: "Matias Campos",
+        name: "Matías Campos Chaves",
+        short_name: "Matías Campos",
         role: "Full Stack Software Engineer",
         location: "Desamparados, San Jose, Costa Rica",
         email: "matiastrabajo974@gmail.com",
         phone: "+506 8703 5523",
         cv_url: "matias-campos-cv.pdf",
         cv_preview_url: "matias-campos-cv-preview.png",
+        cv_asset_version: "ats-20260906",
         linkedin: "https://www.linkedin.com/in/matias-campos-a5b160274/",
         github: "https://github.com/MatiasCamposChaves"
       },
       skills: [
+        "React",
+        "JavaScript",
+        "Ruby",
+        "Ruby on Rails",
         "MySQL",
         "SQL Server",
         "SAP B1",
         "C#",
-        "React",
         "Java",
         "HTML And CSS",
+        "APIs",
+        "WebSockets",
+        "Docker",
+        "Testing",
+        "Cron Jobs",
         "AI-assisted development"
       ],
       soft_skills: [
@@ -37,6 +46,13 @@ class HomeController < ApplicationController
       ],
       credentials: [
         {
+          title: "Desarrollo de aplicaciones Web con React y Ruby on Rails",
+          issuer: "Universidad CENFOTEC",
+          date: "04-09-2026",
+          url: "https://acred.it/XGc3r?utm_source=copy&resource_type=badge&resource=1c82bf4c-a015-47a1-b100-35f765619377",
+          kind: "Course certification"
+        },
+        {
           title: "Bachillerato en Ingeniería del Software",
           issuer: "Universidad CENFOTEC",
           date: "25-03-2026",
@@ -52,6 +68,11 @@ class HomeController < ApplicationController
         }
       ],
       education: [
+        {
+          title: "Web Application Development with React and Ruby on Rails",
+          institution: "Universidad CENFOTEC",
+          period: "2026"
+        },
         {
           title: "Baccalaureate in Software Engineering",
           institution: "Universidad CENFOTEC",

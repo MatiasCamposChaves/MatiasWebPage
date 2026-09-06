@@ -1,6 +1,6 @@
 # MatiasWebPage
 
-Personal portfolio website for Matias Campos Chaves. The site is designed as a professional profile for recruiters, companies, and technology teams that want to quickly understand Matias' background, experience, credentials, resume, and contact links.
+Personal portfolio website for Matías Campos Chaves. The site is designed as a professional profile for recruiters, companies, and technology teams that want to quickly understand Matías' background, experience, credentials, resume, and contact links.
 
 ## Features
 
@@ -9,7 +9,7 @@ Personal portfolio website for Matias Campos Chaves. The site is designed as a p
 - Professional hero section with a hiring-focused summary.
 - Personal information and contact details.
 - Technical stack and professional strengths.
-- Current Full Stack experience at Grupo Montecristo / DrMax.
+- Freelance Full Stack experience at Grupo Montecristo / DrMax.
 - Education, certifications, and verifiable Acreditta credentials.
 - Resume section with a custom preview image, open action, and PDF download.
 - LinkedIn, GitHub, and email links.
